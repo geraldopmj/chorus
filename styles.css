@@ -161,11 +161,18 @@
 .slider > .thumb.left {
     left: 25%;
     transform: translate(-6px, -3px);
+    display: none;
 }
 
 .slider > .thumb.right {
     right: 25%;
     transform: translate(6px, -3px);
+    display: none;
+}
+
+.snippy:hover .slider > .thumb.left,
+.snippy:hover .slider > .thumb.right {
+    display: block;
 }
 
 .input[type="range"] {
