@@ -171,7 +171,9 @@
 }
 
 .snippy:hover .slider > .thumb.left,
-.snippy:hover .slider > .thumb.right {
+.snippy:active .slider > .thumb.left,
+.snippy:hover .slider > .thumb.right,
+.snippy:active .slider > .thumb.right {
     display: block;
 }
 
